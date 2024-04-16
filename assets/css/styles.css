@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1%;
+}
+
+.card {
+  height: 54vh;
+  width: 370px;
+}
+
+.card img {
+  height: 40vh;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+#colegas img {
+  width: 10%;
+  height: 30vh;
+}
+
