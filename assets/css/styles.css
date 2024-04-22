@@ -3,17 +3,8 @@
   padding: 0;
 }
 
-body {
-  padding: 1%;
-}
-
-.card {
-  height: 54vh;
-  width: 370px;
-}
-
-.card img {
-  height: 40vh;
+html {
+  scroll-behavior: smooth;
 }
 
 .carousel-item {
@@ -24,8 +15,129 @@ body {
   height: 100%;
 }
 
-#colegas img {
-  width: 10%;
-  height: 30vh;
+ul {
+  list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.row {
+  margin: 0;
+}
+
+@media (min-width: 200px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7vh;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkturquoise;
+    padding: 1%;
+  }
+
+  nav > ul {
+    display: flex;
+    column-gap: 0.5vh;
+  }
+
+  nav a {
+    color: black;
+    font-weight: 500;
+  }
+
+  #perfil {
+    background-color: gainsboro;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #perfil figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5vh;
+  }
+
+  #perfil img {
+    width: 85%;
+  }
+
+  .sociais {
+    display: flex;
+    justify-content: center;
+    column-gap: 7vh;
+  }
+
+  .sociais > li > a {
+    font-size: 35px;
+    color: black;
+  }
+
+  #repositorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4vh;
+    background-color: darkturquoise;
+    padding: 5% 0 5% 0;
+  }
+
+  #repositorios > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card img {
+    height: 40vh;
+  }
+
+  #colegas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4vh;
+    padding-bottom: 5%;
+  }
+
+  #colegas img {
+    width: 240px;
+    height: 50vh;
+    border-radius: 7px 7px 0 0;
+  }
+
+  #colegas figcaption {
+    padding: 3%;
+    border-radius: 0 0 7px 7px;
+    background-color: gainsboro;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 20vh;
+  }
+
+  .expense {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding: 2%;
+  }
+}

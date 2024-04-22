@@ -10,7 +10,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
@@ -19,42 +22,48 @@
       <ul>
         <li><a href="#perfil">Perfil</a></li>
         <li><a href="/repo.html">Repositórios</a></li>
-        <li><a href="#carouselExampleIndicators">Conteúdo sugerido</a></li>
-        <li><a href="#colegas">Colegas de trabalho</a></li>
+        <li><a href="#carouselExampleIndicators">Conteúdo</a></li>
+        <li><a href="#colegas">Colegas</a></li>
       </ul>
     </nav>
     <header id="perfil">
       <h2>Perfil</h2>
       <figure>
-        <img src="" alt="" />
+        <img src="./assets/img/perfil-wpp.jpg" alt="perfil" />
         <figcaption>
           <h3>Pedro Soares de Souza Garcia</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
-            laboriosam quisquam iste optio odio fuga distinctio praesentium
-            laborum deleniti sapiente?
+            Aluno responsável e motivado, pronto para aplicar a educação no
+            local de trabalho. Ofereço grandes habilidades técnicas com software
+            e aplicativos, capacidade de lidar com trabalhos desafiadores e
+            excelentes habilidades de trabalho em equipe. Apaixonado por
+            entregar código de alta qualidade e atender aos objetivos do
+            cliente. Sei que tenho muito a aprender e procuro uma oportunidade
+            que me permita construir uma base profissional sólida.
           </p>
           <h3>Localização: Belo Horizonte, Brasil</h3>
-          <h3>
+          <h4>
             <a href="mailto:pedrossgarcia88@gmail.com"
               >Email: pedrossgarcia88@gmail.com</a
             >
-          </h3>
-          <ul>
+          </h4>
+          <ul class="sociais">
             <li>
               <a
                 href="https://www.linkedin.com/in/pedro-soares-b996a5263/"
                 target="_blank"
-                ><i class="fa-brands fa-linkedin"></i></a
-              >
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </li>
             <li>
-              <a href="https://github.com/pssgarcia" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/pssgarcia" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </li>
             <li>
               <a href="https://instagram.com/pedrossgarcia" target="_blank"
-                ><i class="fa-brands fa-instagram"></i></a
-              >
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </li>
           </ul>
         </figcaption>
@@ -65,10 +74,16 @@
         <div class="col">
           <a href="readvice.html">
             <div class="card">
-              <img src="./assets/img/logo.png" class="card-img-top" alt="readvice-logo" />
+              <img
+                src="./assets/img/logo.png"
+                class="card-img-top"
+                alt="readvice-logo"
+              />
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="https://github.com/pssgarcia/readvice.git">Readvice</a>
+                  <a href="https://github.com/pssgarcia/readvice.git"
+                    >Readvice</a
+                  >
                 </h5>
                 <p class="card-text">
                   This is a longer card with supporting text below as a natural
@@ -152,6 +167,7 @@
         class="carousel slide"
         data-bs-ride="carousel"
       >
+        <h2 style="text-align: center; font-size: 30px">Conteúdo Sugerido</h2>
         <div class="carousel-indicators">
           <button
             type="button"
@@ -188,19 +204,39 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/pic-1.jpg" class="d-block w-100" alt="pic-1" />
+            <img
+              src="./assets/img/pic-1.jpg"
+              class="d-block w-100"
+              alt="pic-1"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/pic-2.jpg" class="d-block w-100" alt="pic-2" />
+            <img
+              src="./assets/img/pic-2.jpg"
+              class="d-block w-100"
+              alt="pic-2"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/pic-3.jpg" class="d-block w-100" alt="pic-3" />
+            <img
+              src="./assets/img/pic-3.jpg"
+              class="d-block w-100"
+              alt="pic-3"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/pic-4.jpg" class="d-block w-100" alt="pic-4" />
+            <img
+              src="./assets/img/pic-4.jpg"
+              class="d-block w-100"
+              alt="pic-4"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/pic-5.jpg" class="d-block w-100" alt="pic-5" />
+            <img
+              src="./assets/img/pic-5.jpg"
+              class="d-block w-100"
+              alt="pic-5"
+            />
           </div>
         </div>
         <button
@@ -222,31 +258,36 @@
           <span class="visually-hidden">Next</span>
         </button>
       </section>
+      <h2 style="text-align: center; font-size: 30px">Colegas de Trabalho</h2>
       <section id="colegas">
         <figure>
-          <img src="./assets/img/joao.jpg" alt="joao-murta">
+          <img src="./assets/img/joao.jpg" alt="joao-murta" />
           <figcaption>
             <h4>João Murta</h4>
           </figcaption>
         </figure>
         <figure>
-          <img src="./assets/img/paulo.jpg" alt="paulo-bernardes">
+          <img src="./assets/img/paulo.jpg" alt="paulo-bernardes" />
           <figcaption>
             <h4>Paulo Bernardes</h4>
           </figcaption>
         </figure>
         <figure>
-          <img src="./assets/img/pedro.jpg" alt="pedro-queiroz">
+          <img src="./assets/img/pedro.jpg" alt="pedro-queiroz" />
           <figcaption>
             <h4>Pedro Queiroz</h4>
           </figcaption>
         </figure>
-      </section>  
+      </section>
     </main>
     <footer>
-
+      <p>&copy; Copyright</p>
+      <p>Desenvolvido por <strong>Pedro Soares</strong></p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
