@@ -134,10 +134,111 @@ a {
     height: 20vh;
   }
 
-  .expense {
+  .repo-detalhes {
     display: flex;
     flex-direction: column;
     row-gap: 2vh;
     padding: 2%;
+  }
+
+  .repo-detalhes h4 {
+    color: darkturquoise;
+  }
+
+  @media (min-width: 1000px) {
+    nav > ul a {
+      font-size: 27px;
+    }
+
+    nav > ul a:hover {
+      text-decoration: underline;
+    }
+    
+    nav > ul {
+      column-gap: 7vh;
+    }
+
+    #perfil figure {
+      flex-direction: row;
+      column-gap: 2vh;
+    }
+
+    #perfil figcaption {
+      display: flex;
+      flex-direction: column;
+      row-gap: 3vh;
+    }
+    
+    #perfil figcaption p {
+      font-size: 22px;
+    }
+
+    #perfil aside {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sociais {
+      column-gap: 10vh;
+      padding-top: 19%;
+    }
+
+    .sociais > li > a {
+      font-size: 80px;
+    }
+
+    .sociais > li > a:hover {
+      color: darkturquoise;
+    }
+
+    #repositorios {
+      flex-direction: row;
+    }
+
+    .repo-main > aside {
+      display: flex;
+      justify-content: flex-start;
+      column-gap: 2vh;
+      padding: 2%;
+    }
+
+    .repo-descricao {
+      font-size: 20px;
+      width: 70%;
+    }
+
+    #fit-flex-img {
+      height: 40vh;
+      width: auto;
+    }
+    #sneakers-img {
+      height: 40vh;
+      width: auto;
+    }
+    #expense-img {
+      height: 40vh;
+      width: auto;
+    }
+
+    .card:hover {
+      scale: 1.02;
+    }
+
+    .card-body {
+      height: 14vh;
+    }
+
+    #colegas {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    #colegas img {
+      width: 330px;
+    }
+
+    footer {
+      height: 15vh;
+    }
   }
 }
