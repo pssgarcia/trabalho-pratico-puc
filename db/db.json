@@ -1,0 +1,69 @@
+{
+  "perfil": [
+    {
+      "nome": "Pedro Soares de Souza Garcia",
+      "imagem": "http://127.0.0.1:5500/assets/img/perfil-wpp.jpg",
+      "descricao": "Aluno responsável e motivado, pronto para aplicar a educação no local de trabalho. Ofereço grandes habilidades técnicas com software e aplicativos, capacidade de lidar com trabalhos desafiadores e excelentes habilidades de trabalho em equipe. Apaixonado por entregar código de alta qualidade e atender aos objetivos do cliente. Sei que tenho muito a aprender e procuro uma oportunidade que me permita construir uma base profissional sólida.",
+      "localizacao": "Belo Horizonte, MG",
+      "email": "pedrossgarcia88@gmail.com",
+      "linksSociais": {
+        "linkedin": "https://www.linkedin.com/in/pedro-soares-b996a5263/",
+        "github": "https://github.com/pssgarcia",
+        "instagram": "https://instagram.com/pedrossgarcia"
+      }
+    }
+  ],
+  "repositorios": [
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/logo.png",
+      "titulo": "Readvice",
+      "descricao": "Este repositório hospeda código para um site de recomendação de livros personalizado."
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/fit_flex.svg",
+      "titulo": "Fit Flex",
+      "descricao": "Este repositório hospeda código para um website front-end sobre fitness feito totalmente em React e Tailwindcss."
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/sneaker.jpg",
+      "titulo": "Street Kicks",
+      "descricao": "Este repositório hospeda código para um site de venda de tênis/sneakers. Se trata de um e-commerce feito em Vue.js integrado em uma API desenvolvida em PHP."
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/expenses.jpg",
+      "titulo": "Expense Tracker",
+      "descricao": "Este repositório hospeda código em Vue.js, PHP e MySQL e se trata de um sistema de controle de despesas."
+    }
+  ],
+  "carrossel": [
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pic-1.jpg"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pic-2.jpg"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pic-3.jpg"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pic-4.jpg"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pic-5.jpg"
+    }
+  ],
+  "colegas": [
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/joao.jpg",
+      "nome": "João Murta"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/paulo.jpg",
+      "nome": "Paulo Bernardes"
+    },
+    {
+      "imagem": "http://127.0.0.1:5500/assets/img/pedro.jpg",
+      "nome": "Pedro Queiroz"
+    }
+  ]
+}

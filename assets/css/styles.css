@@ -58,14 +58,22 @@ a {
     flex-direction: column;
   }
 
+  #perfil > h2 {
+    padding-left: 7%;
+  }
+
   #perfil figure {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     row-gap: 5vh;
   }
 
   #perfil img {
+    width: 85%;
+  }
+
+  #perfil figcaption {
     width: 85%;
   }
 
@@ -158,9 +166,17 @@ a {
       column-gap: 7vh;
     }
 
+    #perfil > h2 {
+      padding: 0;
+    }
+
     #perfil figure {
       flex-direction: row;
-      column-gap: 2vh;
+      column-gap: 5vh;
+    }
+
+    #perfil-figure img {
+      width: 30%;
     }
 
     #perfil figcaption {
@@ -179,8 +195,7 @@ a {
     }
 
     .sociais {
-      column-gap: 10vh;
-      padding-top: 19%;
+      margin-top: 2%;
     }
 
     .sociais > li > a {
