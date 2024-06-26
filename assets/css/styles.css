@@ -208,24 +208,20 @@ a {
     }
 
     #fit-flex-img {
-      height: 40vh;
+      height: 100%;
       width: auto;
     }
     #sneakers-img {
-      height: 40vh;
+      height: 100%;
       width: auto;
     }
     #expense-img {
-      height: 40vh;
+      height: 100%;
       width: auto;
     }
 
     .card:hover {
       scale: 1.02;
-    }
-
-    .card-body {
-      height: 14vh;
     }
 
     #colegas {
