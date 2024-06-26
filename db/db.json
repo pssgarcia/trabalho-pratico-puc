@@ -27,7 +27,7 @@
     {
       "imagem": "http://127.0.0.1:5500/assets/img/sneaker.jpg",
       "titulo": "Street Kicks",
-      "descricao": "Este repositório hospeda código para um site de venda de tênis/sneakers. Se trata de um e-commerce feito em Vue.js integrado em uma API desenvolvida em PHP."
+      "descricao": "Este repositório hospeda código feito em Vue.js e php para um e-commerce de tênis/sneakers."
     },
     {
       "imagem": "http://127.0.0.1:5500/assets/img/expenses.jpg",
@@ -37,19 +37,39 @@
   ],
   "carrossel": [
     {
-      "imagem": "http://127.0.0.1:5500/assets/img/pic-1.jpg"
+      "id": 1,
+      "titulo": "Curso de engenharia de software: conheça as principais habilidades desses engenheiros",
+      "descricao": "Fazer o curso de Engenharia de Software, basicamente, é aprender sobre os conhecimentos científicos e técnicos que envolvem os projetos tecnológicos. Para isso, é necessário passar por diversas matérias que fornecerão o aprendizado ideal para o profissional sair da graduação e se posicionar no mercado de trabalho.",
+      "imagem": "https://www.unicesumar.edu.br/blog/wp-content/uploads/2017/06/curso-de-engenharia-de-software-800x533.jpg",
+      "url": "https://www.unicesumar.edu.br/blog/materias-curso-de-engenharia-de-software/"
     },
     {
-      "imagem": "http://127.0.0.1:5500/assets/img/pic-2.jpg"
+      "id": 2,
+      "titulo": "O que é cibersegurança?",
+      "descricao": "Cibersegurança é a prática que protege computadores e servidores, dispositivos móveis, sistemas eletrônicos, redes e dados contra ataques maliciosos. Também é chamada de segurança da tecnologia da informação ou segurança de informações eletrônicas",
+      "imagem": "https://www.kaspersky.com.br/content/pt-br/images/repository/isc/2020/cyber-security-article.jpg",
+      "url": "https://www.kaspersky.com.br/resource-center/definitions/what-is-cyber-security"
     },
     {
-      "imagem": "http://127.0.0.1:5500/assets/img/pic-3.jpg"
+      "id": 3,
+      "titulo": "Inteligência artificial",
+      "descricao": "Apesar de trazerem inúmeros benefícios e avanços importantes em diversas áreas, muito se debate a respeito dos limites éticos da inteligência artificial e do papel que elas desempenham na nossa sociedade atual.",
+      "imagem": "https://s4.static.brasilescola.uol.com.br/be/2023/05/mao-humana-e-mao-robotica-tocando-um-grafico-digital-em-alusao-a-inteligencia-artificial.jpg",
+      "url": "https://brasilescola.uol.com.br/informatica/inteligencia-artificial.htm"
     },
     {
-      "imagem": "http://127.0.0.1:5500/assets/img/pic-4.jpg"
+      "id": 4,
+      "titulo": "O que é a computação em nuvem?",
+      "descricao": "A computação em nuvem é o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet para oferecer inovações mais rápidas, recursos flexíveis e economias de escala.",
+      "imagem": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Overview_image?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=749&qlt=100&fmt=png-alpha&fit=constrain",
+      "url": "https://aws.amazon.com/pt/what-is-cloud-computing/"
     },
     {
-      "imagem": "http://127.0.0.1:5500/assets/img/pic-5.jpg"
+      "id": 5,
+      "titulo": "Entenda o que é tecnologia da informação e quais as áreas de atuação",
+      "descricao": "A tecnologia da informação (TI) é um pilar fundamental na era digital, impactando a forma como trabalhamos, nos comunicamos e vivemos. Entender a relevância desse campo, que permeia toda a nossa sociedade, é essencial em um mundo cada vez mais interconectado.",
+      "imagem": "https://conteudo.saraivaeducacao.com.br/wp-content/uploads/2023/10/tecnologia-da-informacao-1.jpg",
+      "url": "https://conteudo.saraivaeducacao.com.br/tecnologia/tecnologia-da-informacao/"
     }
   ],
   "colegas": [
